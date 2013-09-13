@@ -1,0 +1,2 @@
+C:\Users\ehstudent\Documents\Visual Studio 2010\Projects\ConsoleApplication2\ConsoleApplication2\obj\x86\Debug\ConsoleApplication2.exe
+C:\Users\ehstudent\Documents\Visual Studio 2010\Projects\ConsoleApplication2\ConsoleApplication2\obj\x86\Debug\ConsoleApplication2.pdb
