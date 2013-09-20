@@ -4,48 +4,106 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 
-namespace ConsoleYoYo
+
+namespace ConsoleYoyo
 {
+
     public class Yoyo
     {
-        int x, y, numTimes;
-        public Yoyo(int xPos, int ypos, int numTimes)
+        int x = 5,
+            y = 5,
+            numTimes = 10,
+            maxLength = 10,
+            currentLength = 0;
+            ConsoleColor yoyocolor = ConsoleColor.White;
+            bool isGoingDown = true;
+
+     public Yoyo(int xPos = 5, int yPos = 5, int numTimes = 1)
         {
             x = xPos;
-            y = ypos;
+            y = yPos;
             this.numTimes = numTimes;
         }
+        public void Update()
+        {
+
+            if (isGoingDown)
+            {
+                currentLength++;
+                if (currentLength == maxLength)
+                {
+                    isGoingDown = false;
+                }
+            }
+            else
+            {
+                currentLength--;
+                if (currentLength == 0)
+                {
+                    isGoingDown = true;
+                }
+            }
+        }
+        public void Draw()
+        {
+            for (int i = 0; i < currentLength; i++)
+            {
+                Console.SetCursorPosition(x, y + i);
+                Console.Write("|");
+                Console.SetCursorPosition(x, y + i + 1);
+                Console.Write("#");
+                Console.SetCursorPosition(x, y + i + 2);
+                Console.Write(" ");
+            }
+        }
     }
+
     class Program
     {
         static void Main(string[] args)
         {
-            int x = 10;
-            int y = 10;
-            int maxLength = 5;
-            int currentLength = 0;
-            for (int times = 0; times < 5; times++)
+            List<Yoyo> yoyos = new List<Yoyo>();
 
-            for (int i = 0; i < maxLength; i++)
+            for (int i = 0; i < 5; i++)
             {
-                Console.SetCursorPosition(x, y + i);
-                Console.Write("|");
-                Console.SetCursorPosition(x, y + i + 1);
-                Console.Write("0");
-                Thread.Sleep(100);
+                yoyos.Add(new Yoyo(5 + i, 5, 1));
             }
-            for (int i = maxLength; i >= 0; i--)
+
+            while (true)
             {
-                Console.SetCursorPosition(x, y + i);
-                Console.Write("|");
-                Console.SetCursorPosition(x, y + i + 1);
-                Console.Write("0");
-                Console.SetCursorPosition(x, y + i + 1 + 2);
-                Console.Write(" ");
+                foreach (var yoyo in yoyos)
+                {
+                    yoyo.Update();
+                    yoyo.Draw();
+                }
                 Thread.Sleep(100);
+
+            //int x = 10;
+            //int y = 10;
+            //int maxLength = 5;
+            //for (int times = 0; times < 5; times++)
+            //{
+            //    for (int i = 0; i < maxLength; i++)
+            //    {
+            //        Console.SetCursorPosition(x, y + i);
+            //        Console.Write("|");
+            //        Console.SetCursorPosition(x, y + i + 1);
+            //        Console.Write("0");
+            //        Thread.Sleep(100);
+            //    }
+
+                //for (int i = maxLength; i >= 0; i--)
+                //{
+                //    Console.SetCursorPosition(x, y + i);
+                //    Console.Write("|");
+                //    Console.SetCursorPosition(x, y + i + 1);
+                //    Console.Write("0");
+                //    Console.SetCursorPosition(x, y + i + 2);
+                //    Console.Write(" ");
+                //    Thread.Sleep(100);
+                //}
+                //Thread.Sleep(300);
             }
-            Thread.Sleep(300);
         }
-
     }
 }
