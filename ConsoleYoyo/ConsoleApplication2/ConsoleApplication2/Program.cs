@@ -15,7 +15,7 @@ namespace ConsoleYoyo
             numTimes = 10,
             maxLength = 10,
             currentLength = 0;
-            ConsoleColor yoyocolor = ConsoleColor.White;
+            ConsoleColor yoyocolor = ConsoleColor.DarkBlue;
             bool isGoingDown = true;
 
      public Yoyo(int xPos = 5, int yPos = 5, int numTimes = 1)
@@ -23,9 +23,11 @@ namespace ConsoleYoyo
             x = xPos;
             y = yPos;
             this.numTimes = numTimes;
+
         }
         public void Update()
         {
+            
 
             if (isGoingDown)
             {
@@ -46,15 +48,26 @@ namespace ConsoleYoyo
         }
         public void Draw()
         {
-            for (int i = 0; i < currentLength; i++)
+            ConsoleColor yoyocolor = ConsoleColor.DarkBlue;
+
+            if (Console.ForegroundColor < ConsoleColor.White)
             {
-                Console.SetCursorPosition(x, y + i);
-                Console.Write("|");
-                Console.SetCursorPosition(x, y + i + 1);
-                Console.Write("#");
-                Console.SetCursorPosition(x, y + i + 2);
-                Console.Write(" ");
+                Console.ForegroundColor++;
             }
+            else
+            {
+                Console.ForegroundColor = ConsoleColor.Black;
+            }
+
+                for (int i = 0; i < currentLength; i++)
+                {
+                    Console.SetCursorPosition(x, y + i);
+                    Console.Write("|");
+                    Console.SetCursorPosition(x, y + i + 1);
+                    Console.Write("0");
+                    Console.SetCursorPosition(x, y + i + 2);
+                    Console.Write(" ");
+                }
         }
     }
 
@@ -62,7 +75,18 @@ namespace ConsoleYoyo
     {
         static void Main(string[] args)
         {
-            List<Yoyo> yoyos = new List<Yoyo>();
+
+            F();
+            F();
+        }
+
+        static Random _r = new Random();
+        static void F()
+        {
+            int n = _r.Next();
+            Console.WriteLine(n);
+        
+        List<Yoyo> yoyos = new List<Yoyo>();
 
             for (int i = 0; i < 5; i++)
             {
@@ -77,6 +101,8 @@ namespace ConsoleYoyo
                     yoyo.Draw();
                 }
                 Thread.Sleep(100);
+
+                //Environment.Exit(0); (To close the Program)
 
             //int x = 10;
             //int y = 10;
