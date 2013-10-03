@@ -18,6 +18,7 @@ namespace ConsoleYoyo
             ConsoleColor yoyocolor = ConsoleColor.DarkBlue;
             bool isGoingDown = true;
 
+
      public Yoyo(int xPos = 5, int yPos = 5, int numTimes = 1)
         {
             x = xPos;
@@ -32,7 +33,7 @@ namespace ConsoleYoyo
             if (isGoingDown)
             {
                 currentLength++;
-                if (currentLength == 6)
+                if (currentLength == 10)
                 {
                     isGoingDown = false;
                 }
@@ -40,7 +41,7 @@ namespace ConsoleYoyo
             else
             {
                 currentLength--;
-                if (currentLength == 5)
+                if (currentLength == 0)
                 {
                     isGoingDown = true;
                 }
@@ -72,6 +73,18 @@ namespace ConsoleYoyo
         }
     }
 
+    public class TrickYoyo : Yoyo
+    {
+        int sleepTime;
+        public TrickYoyo(int sleepTime, int currentLength = 0,int xPos= 5, int yPos = 5, int numTimes = 10, int maxLength = 10, ConsoleColor yoyocolor = ConsoleColor.DarkBlue)
+            :base(sleepTime, xPos, yPos, numTimes, length, ConsoleColor.DarkBlue)
+
+        {
+           //this.sleepTime = sleepTime;
+           // sleepTime++;
+        }
+    }
+
     class Program
     {
         static void Main(string[] args)
@@ -87,9 +100,9 @@ namespace ConsoleYoyo
             int n = _r.Next();
             Console.WriteLine(n);
         
-        List<Yoyo> yoyos = new List<Yoyo>();
+        List<Yoyo> yoyos = new List<Yoyo>();       
 
-            for (int i = 0; i < 5; i++)
+            for (int i = 0; i < 10; i++)
             {
                 yoyos.Add(new Yoyo(5 + i, 5, 1));
             }

@@ -9,3 +9,8 @@ C:\Users\Kernkin\Desktop\CMP-129\ConsoleYoyo\ConsoleApplication2\ConsoleApplicat
 C:\Users\Kernkin\Desktop\CMP-129\ConsoleYoyo\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe
 C:\Users\Kernkin\Desktop\CMP-129\ConsoleYoyo\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.pdb
 C:\Users\Kernkin\Desktop\CMP-129\ConsoleYoyo\ConsoleApplication2\ConsoleApplication2\obj\x86\Debug\ConsoleYoyo.csprojResolveAssemblyReference.cache
+C:\Users\eh203\Desktop\CMP-129\ConsoleYoyo\ConsoleApplication2\ConsoleApplication2\obj\x86\Debug\ConsoleApplication2.exe
+C:\Users\eh203\Desktop\CMP-129\ConsoleYoyo\ConsoleApplication2\ConsoleApplication2\obj\x86\Debug\ConsoleApplication2.pdb
+C:\Users\eh203\Desktop\CMP-129\ConsoleYoyo\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe
+C:\Users\eh203\Desktop\CMP-129\ConsoleYoyo\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.pdb
+C:\Users\eh203\Desktop\CMP-129\ConsoleYoyo\ConsoleApplication2\ConsoleApplication2\obj\x86\Debug\ConsoleYoyo.csprojResolveAssemblyReference.cache
