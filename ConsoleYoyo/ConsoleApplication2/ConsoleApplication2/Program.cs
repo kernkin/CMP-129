@@ -32,7 +32,7 @@ namespace ConsoleYoyo
             if (isGoingDown)
             {
                 currentLength++;
-                if (currentLength == maxLength)
+                if (currentLength == 6)
                 {
                     isGoingDown = false;
                 }
@@ -40,7 +40,7 @@ namespace ConsoleYoyo
             else
             {
                 currentLength--;
-                if (currentLength == 0)
+                if (currentLength == 5)
                 {
                     isGoingDown = true;
                 }
@@ -68,6 +68,7 @@ namespace ConsoleYoyo
                     Console.SetCursorPosition(x, y + i + 2);
                     Console.Write(" ");
                 }
+                
         }
     }
 
