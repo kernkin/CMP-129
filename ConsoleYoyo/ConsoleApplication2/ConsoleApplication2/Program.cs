@@ -76,12 +76,13 @@ namespace ConsoleYoyo
     public class TrickYoyo : Yoyo
     {
         int sleepTime;
+
         public TrickYoyo(int sleepTime, int currentLength = 0,int xPos= 5, int yPos = 5, int numTimes = 10, int maxLength = 10, ConsoleColor yoyocolor = ConsoleColor.DarkBlue)
-            :base(sleepTime, xPos, yPos, numTimes, length, ConsoleColor.DarkBlue)
+            :base(sleepTime, xPos, yPos, numTimes, maxLength, currentLength, ConsoleColor.DarkBlue)
 
         {
-           //this.sleepTime = sleepTime;
-           // sleepTime++;
+           this.sleepTime = sleepTime;
+           sleepTime++;
         }
     }
 
