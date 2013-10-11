@@ -19,7 +19,7 @@ namespace ConsoleYoyo
             bool isGoingDown = true;
 
 
-     public Yoyo(int xPos = 5, int yPos = 5, int numTimes = 1)
+        public Yoyo(int xPos = 5, int yPos = 5, int numTimes = 1)
         {
             x = xPos;
             y = yPos;
@@ -78,7 +78,11 @@ namespace ConsoleYoyo
         int sleepTime;
 
         public TrickYoyo(int sleepTime, int currentLength = 0,int xPos= 5, int yPos = 5, int numTimes = 10, int maxLength = 10, ConsoleColor yoyocolor = ConsoleColor.DarkBlue)
-            :base(sleepTime, xPos, yPos, numTimes, maxLength, currentLength, ConsoleColor.DarkBlue)
+            :base(xPos, yPos, numTimes)
+
+        {
+            
+        }
 
         {
            this.sleepTime = sleepTime;
