@@ -7,3 +7,8 @@ C:\Users\Kernkin\Desktop\CMP-129\DiceGame\DiceGame\obj\x86\Debug\DiceGame.pdb
 C:\Users\Kernkin\Desktop\CMP-129\DiceGame\DiceGame\bin\Debug\DiceGame.exe
 C:\Users\Kernkin\Desktop\CMP-129\DiceGame\DiceGame\bin\Debug\DiceGame.pdb
 C:\Users\Kernkin\Desktop\CMP-129\DiceGame\DiceGame\obj\x86\Debug\DiceGame.csprojResolveAssemblyReference.cache
+C:\Users\ehstudent\Desktop\CMP-129\DiceGame\DiceGame\obj\x86\Debug\DiceGame.exe
+C:\Users\ehstudent\Desktop\CMP-129\DiceGame\DiceGame\obj\x86\Debug\DiceGame.pdb
+C:\Users\ehstudent\Desktop\CMP-129\DiceGame\DiceGame\bin\Debug\DiceGame.exe
+C:\Users\ehstudent\Desktop\CMP-129\DiceGame\DiceGame\bin\Debug\DiceGame.pdb
+C:\Users\ehstudent\Desktop\CMP-129\DiceGame\DiceGame\obj\x86\Debug\DiceGame.csprojResolveAssemblyReference.cache

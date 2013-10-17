@@ -18,22 +18,23 @@ namespace DiceGame
 
             Random roll = new Random();
 
-            int die = roll.Next(1, 6);
+          
 
             while (diceValue)
             {
-
+                int die = roll.Next(1, 6);
                 Console.WriteLine("Rolling...");
                 Console.Write("{0}", die);
                 Console.WriteLine();
                 Console.WriteLine("You rolled a " + die);
                 Console.Write("");
-                break;
+                //break;
+                Console.WriteLine("Do you want to roll again? If so hit enter.");
+                Console.Read();
                 
                 
             }
-            Console.WriteLine("Do you want to roll again? If so hit enter.");
-            Console.Read();
+           
             
 
 
