@@ -3,28 +3,44 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
+//have the 2 players "roll" 6 sided dice at the end of each roll ask the players if they want to roll again the object of the
+//game is to get as close to 21 as possible without going over
 namespace DiceGame
 {
-    //have the 2 players "roll" 6 sided dice at the end of each roll ask the players if they want to roll again the object of the
-    //game is to get as close to 21 as possible with out going over
-    
+
     class Program
     {
+
         static void Main(string[] args)
-        {
-            bool isRolled = true;
+        {           
 
-            if (isRolled == true)
+            bool diceValue = true;
+
+            Random roll = new Random();
+
+            int die = roll.Next(1, 6);
+
+            while (diceValue)
             {
-                Console.WriteLine(" Do you want to roll again");
-                Console.Read();          
-            }
-            else
-            { 
 
+                Console.WriteLine("Rolling...");
+                Console.Write("{0}", die);
+                Console.WriteLine();
+                Console.WriteLine("You rolled a " + die);
+                Console.Write("");
+                break;
+                
+                
             }
-            Console.WriteLine(" Do you want to roll again");
+            Console.WriteLine("Do you want to roll again? If so hit enter.");
             Console.Read();
+            
+
+
         }
+
     }
+
 }
+
+

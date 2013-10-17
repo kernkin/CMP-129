@@ -2,3 +2,8 @@ c:\users\eh203\documents\visual studio 2010\Projects\DiceGame\DiceGame\bin\Debug
 c:\users\eh203\documents\visual studio 2010\Projects\DiceGame\DiceGame\bin\Debug\DiceGame.pdb
 c:\users\eh203\documents\visual studio 2010\Projects\DiceGame\DiceGame\obj\x86\Debug\DiceGame.exe
 c:\users\eh203\documents\visual studio 2010\Projects\DiceGame\DiceGame\obj\x86\Debug\DiceGame.pdb
+C:\Users\Kernkin\Desktop\CMP-129\DiceGame\DiceGame\obj\x86\Debug\DiceGame.exe
+C:\Users\Kernkin\Desktop\CMP-129\DiceGame\DiceGame\obj\x86\Debug\DiceGame.pdb
+C:\Users\Kernkin\Desktop\CMP-129\DiceGame\DiceGame\bin\Debug\DiceGame.exe
+C:\Users\Kernkin\Desktop\CMP-129\DiceGame\DiceGame\bin\Debug\DiceGame.pdb
+C:\Users\Kernkin\Desktop\CMP-129\DiceGame\DiceGame\obj\x86\Debug\DiceGame.csprojResolveAssemblyReference.cache
