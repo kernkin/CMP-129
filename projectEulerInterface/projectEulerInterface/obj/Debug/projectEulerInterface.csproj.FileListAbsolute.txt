@@ -1,0 +1,5 @@
+c:\users\ehstudent\documents\visual studio 2012\Projects\projectEulerInterface\projectEulerInterface\bin\Debug\projectEulerInterface.exe.config
+c:\users\ehstudent\documents\visual studio 2012\Projects\projectEulerInterface\projectEulerInterface\bin\Debug\projectEulerInterface.exe
+c:\users\ehstudent\documents\visual studio 2012\Projects\projectEulerInterface\projectEulerInterface\bin\Debug\projectEulerInterface.pdb
+c:\users\ehstudent\documents\visual studio 2012\Projects\projectEulerInterface\projectEulerInterface\obj\Debug\projectEulerInterface.exe
+c:\users\ehstudent\documents\visual studio 2012\Projects\projectEulerInterface\projectEulerInterface\obj\Debug\projectEulerInterface.pdb

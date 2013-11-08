@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "projectEulerInterface", "projectEulerInterface\projectEulerInterface.csproj", "{EE09E217-83BA-4E40-A914-5A6D6B5D17DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE09E217-83BA-4E40-A914-5A6D6B5D17DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE09E217-83BA-4E40-A914-5A6D6B5D17DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE09E217-83BA-4E40-A914-5A6D6B5D17DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE09E217-83BA-4E40-A914-5A6D6B5D17DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

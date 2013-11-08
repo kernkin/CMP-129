@@ -4,3 +4,6 @@ C:\Users\ehstudent\Documents\Visual Studio 2012\Projects\ProjectEuler\ProjectEul
 C:\Users\ehstudent\Desktop\CMP-129\ProjectEuler\ProjectEuler\bin\Debug\ConsoleApplication1.exe.config
 C:\Users\ehstudent\Desktop\CMP-129\ProjectEuler\ProjectEuler\obj\Debug\ConsoleApplication1.exe
 C:\Users\ehstudent\Desktop\CMP-129\ProjectEuler\ProjectEuler\obj\Debug\ConsoleApplication1.pdb
+C:\Users\ehstudent\Desktop\CMP-129\ProjectEuler\ProjectEuler\obj\Debug\ProjectEuler.csprojResolveAssemblyReference.cache
+C:\Users\ehstudent\Desktop\CMP-129\ProjectEuler\ProjectEuler\bin\Debug\ConsoleApplication1.exe
+C:\Users\ehstudent\Desktop\CMP-129\ProjectEuler\ProjectEuler\bin\Debug\ConsoleApplication1.pdb

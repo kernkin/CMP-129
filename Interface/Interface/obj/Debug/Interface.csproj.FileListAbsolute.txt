@@ -7,3 +7,9 @@ c:\users\kernkin\documents\visual studio 2012\Projects\Interface\Interface\obj\D
 C:\Users\Kernkin\Desktop\New folder\CMP-129\Interface\Interface\bin\Debug\Interface.exe.config
 C:\Users\Kernkin\Desktop\New folder\CMP-129\Interface\Interface\obj\Debug\Interface.exe
 C:\Users\Kernkin\Desktop\New folder\CMP-129\Interface\Interface\obj\Debug\Interface.pdb
+C:\Users\ehstudent\Desktop\CMP-129\Interface\Interface\bin\Debug\Interface.exe.config
+C:\Users\ehstudent\Desktop\CMP-129\Interface\Interface\obj\Debug\Interface.exe
+C:\Users\ehstudent\Desktop\CMP-129\Interface\Interface\obj\Debug\Interface.pdb
+C:\Users\ehstudent\Desktop\CMP-129\Interface\Interface\bin\Debug\Interface.exe
+C:\Users\ehstudent\Desktop\CMP-129\Interface\Interface\bin\Debug\Interface.pdb
+C:\Users\ehstudent\Desktop\CMP-129\Interface\Interface\obj\Debug\Interface.csprojResolveAssemblyReference.cache
