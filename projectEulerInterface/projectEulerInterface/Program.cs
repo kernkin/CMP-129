@@ -4,7 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
+//Write an event manager that has at least 3 different events. Allow the user to type events into the console and
+//have the appropriate event called (or not called if it's not valid event)
 
 namespace projectEulerInterface
 {
@@ -12,7 +13,7 @@ namespace projectEulerInterface
     {
         void Compute();
     }
-
+   
     public delegate void MyDelegate(object sender, EventArgs e);
     public class EventManager
     {
@@ -149,7 +150,7 @@ namespace projectEulerInterface
          }
      }
 
-         public class Nine : myInterface
+     public class Nine : myInterface
          {
              public void Compute()
              {

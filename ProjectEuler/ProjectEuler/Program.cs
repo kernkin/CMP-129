@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-//complete problems 1, 2 ,5 and 2 of your choosing Attribute projecteuler.net
-//Write an event manager that has at least 3 different evnts. Allow the user to type events into the console and
-//have the approproate event called (or notcalled if it's not valid event
+
+//Write an event manager that has at least 3 different events. Allow the user to type events into the console and
+//have the appropriate event called (or not called if it's not valid event)
 interface myInterface
 {
     void Read();

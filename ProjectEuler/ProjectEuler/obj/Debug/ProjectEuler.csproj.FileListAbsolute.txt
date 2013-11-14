@@ -7,3 +7,6 @@ C:\Users\ehstudent\Desktop\CMP-129\ProjectEuler\ProjectEuler\obj\Debug\ConsoleAp
 C:\Users\ehstudent\Desktop\CMP-129\ProjectEuler\ProjectEuler\obj\Debug\ProjectEuler.csprojResolveAssemblyReference.cache
 C:\Users\ehstudent\Desktop\CMP-129\ProjectEuler\ProjectEuler\bin\Debug\ConsoleApplication1.exe
 C:\Users\ehstudent\Desktop\CMP-129\ProjectEuler\ProjectEuler\bin\Debug\ConsoleApplication1.pdb
+C:\Users\Kernkin\Desktop\CMP-129\ProjectEuler\ProjectEuler\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\Kernkin\Desktop\CMP-129\ProjectEuler\ProjectEuler\obj\Debug\ConsoleApplication1.exe
+C:\Users\Kernkin\Desktop\CMP-129\ProjectEuler\ProjectEuler\obj\Debug\ConsoleApplication1.pdb
