@@ -34,7 +34,10 @@ namespace projectEulerInterface
 
         public void Happen(string eventName)
         {
-            if (!events.Keys.Contains(eventName)) return;
+            if (!events.Keys.Contains(eventName))
+            {
+                return;
+            }
             if (events[eventName] != null)
             {
                 events[eventName](this, EventArgs.Empty);
@@ -151,7 +154,7 @@ namespace projectEulerInterface
      }
 
      public class Nine : myInterface
-         {
+       {
              public void Compute()
              {
 
@@ -177,35 +180,36 @@ namespace projectEulerInterface
 
     
     class Program
-    {
-        static void Main(string[]args )
         {
-            EventManager.Manager.Subscribe("ButtonPressed", MySubscriber);
-            EventManager.Manager.Subscribe("ButtonPressed", MySubscriber);
-            EventManager.Manager.Subscribe("ButtonPressed", MySubscriberReleased);
-            EventManager.Manager.Happen("ButtonPressed");
-            EventManager.Manager.Happen("ButtonPressed");
-        }
-        static void MySubscriberReleased(object sender, EventArgs e)
-        {
+            static void Main(string[]args )
+            {
+                EventManager.Manager.Subscribe("ButtonPressed", MySubscriber);
+                EventManager.Manager.Subscribe("ButtonPressed", MySubscriber);
+                EventManager.Manager.Subscribe("ButtonPressed", MySubscriberReleased);
+                EventManager.Manager.Happen("ButtonPressed");
+                EventManager.Manager.Happen("ButtonPressed");
+            }
+            static void MySubscriberReleased(object sender, EventArgs e)
+            {
             Console.WriteLine("button released");
-        }
-        static void MySubscriber(object sender, EventArgs e)
-        {
+            }
+            static void MySubscriber(object sender, EventArgs e)
+            {
             Console.WriteLine("button pressed");
+            }
+            
+            List<myInterface> list = new List<myInterface>();
+            list.Add(new One());
+            list.Add(new Two());
+            list.Add(new Three());
+            list.Add(new Nine());
+
+            foreach(myInterface compute in list)
+            {
+                compute.Compute();
+            }
         }
-    }
+        
+        
+}             
 
-            //List<myInterface> list = new List<myInterface>();
-            //list.Add(new One());
-            ////list.Add(new Two());
-            ////list.Add(new Three());
-            //list.Add(new Nine());
-
-            //foreach(myInterface compute in list)
-            //{
-            //    compute.Compute();
-            //}
-        //}
-    //}
-}

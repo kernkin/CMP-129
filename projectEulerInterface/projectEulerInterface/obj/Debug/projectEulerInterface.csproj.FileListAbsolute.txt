@@ -9,3 +9,7 @@ C:\Users\Kernkin\Desktop\CMP-129\projectEulerInterface\projectEulerInterface\obj
 C:\Users\Kernkin\Desktop\CMP-129\projectEulerInterface\projectEulerInterface\bin\Debug\projectEulerInterface.exe
 C:\Users\Kernkin\Desktop\CMP-129\projectEulerInterface\projectEulerInterface\bin\Debug\projectEulerInterface.pdb
 C:\Users\Kernkin\Desktop\CMP-129\projectEulerInterface\projectEulerInterface\obj\Debug\projectEulerInterface.csprojResolveAssemblyReference.cache
+C:\Users\ehstudent\Desktop\CMP-129\projectEulerInterface\projectEulerInterface\bin\Debug\projectEulerInterface.exe.config
+C:\Users\ehstudent\Desktop\CMP-129\projectEulerInterface\projectEulerInterface\obj\Debug\projectEulerInterface.exe
+C:\Users\ehstudent\Desktop\CMP-129\projectEulerInterface\projectEulerInterface\obj\Debug\projectEulerInterface.pdb
+C:\Users\ehstudent\Desktop\CMP-129\projectEulerInterface\projectEulerInterface\obj\Debug\projectEulerInterface.csprojResolveAssemblyReference.cache
