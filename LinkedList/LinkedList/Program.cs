@@ -13,10 +13,17 @@ namespace LinkedList
         {
             
             LinkedList<string> stringlist = new LinkedList<string>("Hi", "Bye");
+            stringlist.Delete("Hi");
             LinkedList<string>.LinkedListNode head = stringlist.head;
             
             //Console.WriteLine("Hi");
             //Console.WriteLine("Bye");
+            do
+            {
+                Console.WriteLine(head.value);
+                head = head.next;
+            }
+            while (head != null);
 
         }
     }
@@ -62,29 +69,29 @@ namespace LinkedList
                 }
                 val.SetNext(new LinkedListNode(value));
             }
-            //public void Delete(T value)
-            //{
-            //    if (head.value.Equals(value))
-            //    {
-            //        head = head.next;
-            //        return;
-            //    }
-            //    LinkedListNode currentNode = head.next;
-            //    LinkedListNode prevNode = head;
-            //    while(currentNode != null)
-            //    {
-            //        if (head.value.Equals(value))
-            //        {
-            //            prevNode = currentNode.next;
-            //            currentNode = null;
-            //            break;
-            //        }
-            //        else
-            //        {
-            //            prevNode = currentNode;
-            //            currentNode = currentNode.next;
-            //        }
-            //    }            
-            //}
+            public void Delete(T value)
+            {
+                if (head.value.Equals(value))
+                {
+                    head = head.next;
+                    return;
+                }
+                LinkedListNode currentNode = head.next;
+                LinkedListNode prevNode = head;
+                while (currentNode != null)
+                {
+                    if (head.value.Equals(value))
+                    {
+                        prevNode = currentNode.next;
+                        currentNode = null;
+                        break;
+                    }
+                    else
+                    {
+                        prevNode = currentNode;
+                        currentNode = currentNode.next;
+                    }
+                }
+            }
      }    
 }
