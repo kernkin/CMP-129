@@ -17,10 +17,15 @@ namespace FinalProjectTicTacToe
 {
     class Program
     {
+<<<<<<< HEAD
         public void DrawBoardX();
         static void Main(string[] args)
         {
             
+=======
+        static void Main(string[] args)
+        {
+>>>>>>> 8b36820ed03d6f951d7659cb0cea6116222b63d0
             string A = "1";
             string B = "2";
             string C = "3";
@@ -47,6 +52,7 @@ namespace FinalProjectTicTacToe
             player1 = Console.ReadLine();
             Console.WriteLine("Enter the name of player two.");
             player2 = Console.ReadLine();
+<<<<<<< HEAD
             
 
             Start:
@@ -58,15 +64,25 @@ namespace FinalProjectTicTacToe
     
    public class PlayerOne
    {
+=======
+            Start:
+
+
+            Console.Clear();
+
+>>>>>>> 8b36820ed03d6f951d7659cb0cea6116222b63d0
             if (turn == "player1") //player X
             {
                 turn = "player2";
                 Console.Clear();
                 Console.WriteLine("Player: " + player1 + "'s turn!");
                 Console.WriteLine("");
+<<<<<<< HEAD
    
      public void DrawBoard
      {
+=======
+>>>>>>> 8b36820ed03d6f951d7659cb0cea6116222b63d0
                 //Draw Board.
                 Console.WriteLine(A + "|" + B + "|" + C);
                 Console.WriteLine(D + "|" + E + "|" + F);
@@ -173,6 +189,7 @@ namespace FinalProjectTicTacToe
                         Console.WriteLine("Warning: This box has been taken");
                     }
                 }
+<<<<<<< HEAD
                 if (selection == "1")
                 {
                     if (A == "1")
@@ -278,6 +295,8 @@ namespace FinalProjectTicTacToe
 
      public void PlayerWin
      {
+=======
+>>>>>>> 8b36820ed03d6f951d7659cb0cea6116222b63d0
 
                 //winner detection
                 if (A == B & B == C)
@@ -408,6 +427,153 @@ namespace FinalProjectTicTacToe
                         playAgain = "false";
                     }
                 }
+<<<<<<< HEAD
+=======
+                if (won == "false")
+                {
+                    goto Start;
+                }
+                if (playAgain == "true")
+                {
+                    A = "1";
+                    B = "2";
+                    C = "3";
+                    D = "4";
+                    E = "5";
+                    F = "6";
+                    G = "7";
+                    H = "8";
+                    I = "9";
+                    goto Start;
+                }
+                else
+                {
+                    Console.WriteLine("Thanks for playing!");
+                }
+
+
+
+            }
+
+
+            //A|B|C
+            //D|E|F
+            //G|H|I
+            if (turn == "player2") //player O
+            {
+                turn = "player1";
+                Console.Clear();
+                Console.WriteLine("Player: " + player2 + "'s turn!");
+                Console.WriteLine("");
+                //Draw Board.
+                Console.WriteLine(A + "|" + B + "|" + C);
+                Console.WriteLine(D + "|" + E + "|" + F);
+                Console.WriteLine(G + "|" + H + "|" + I);
+                Console.WriteLine("*********************");
+                Console.WriteLine("Please make a selection.");
+                selection = Console.ReadLine();
+                if (selection == "1")
+                {
+                    if (A == "1")
+                    {
+                        A = "O";
+                    }
+                    else
+                    {
+                        Console.WriteLine("Warning: This box has been taken");
+                    }
+                }
+                if (selection == "2")
+                {
+                    if (B == "2")
+                    {
+                        B = "O";
+                    }
+                    else
+                    {
+                        Console.WriteLine("Warning: This box has been taken");
+                    }
+                }
+                if (selection == "3")
+                {
+                    if (C == "3")
+                    {
+                        C = "O";
+                    }
+                    else
+                    {
+                        Console.WriteLine("Warning: This box has been taken");
+                    }
+                }
+                if (selection == "4")
+                {
+                    if (D == "4")
+                    {
+                        D = "O";
+                    }
+                    else
+                    {
+                        Console.WriteLine("Warning: This box has been taken");
+                    }
+                }
+                if (selection == "5")
+                {
+                    if (E == "5")
+                    {
+                        E = "O";
+                    }
+                    else
+                    {
+                        Console.WriteLine("Warning: This box has been taken");
+                    }
+                }
+                if (selection == "6")
+                {
+                    if (F == "6")
+                    {
+                        F = "O";
+                    }
+                    else
+                    {
+                        Console.WriteLine("Warning: This box has been taken");
+                    }
+                }
+                if (selection == "7")
+                {
+                    if (G == "7")
+                    {
+                        G = "O";
+                    }
+                    else
+                    {
+                        Console.WriteLine("Warning: This box has been taken");
+                    }
+                }
+                if (selection == "8")
+                {
+                    if (H == "8")
+                    {
+                        H = "O";
+                    }
+                    else
+                    {
+                        Console.WriteLine("Warning: This box has been taken");
+                    }
+                }
+                if (selection == "9")
+                {
+                    if (I == "9")
+                    {
+                        I = "O";
+                    }
+                    else
+                    {
+                        Console.WriteLine("Warning: This box has been taken");
+                    }
+                }
+
+                //winner detection
+>>>>>>> 8b36820ed03d6f951d7659cb0cea6116222b63d0
                 if (A == B & B == C)
                 {
                     won = "true";
@@ -536,6 +702,7 @@ namespace FinalProjectTicTacToe
                         playAgain = "false";
                     }
                 }
+<<<<<<< HEAD
                 if (won == "false")
                 {
                     goto Start;
@@ -816,6 +983,9 @@ namespace FinalProjectTicTacToe
                 //    }
                 //}
     }
+=======
+            }
+>>>>>>> 8b36820ed03d6f951d7659cb0cea6116222b63d0
             if (won == "false")
             {
                 goto Start;
