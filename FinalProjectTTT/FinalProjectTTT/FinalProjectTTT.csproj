@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{938F9C09-69C2-4390-B144-74E576B638EE}</ProjectGuid>
+    <ProjectGuid>{D79EEC76-8E22-47FA-851F-72F3AF87076D}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>FinalProjectTicTacToe</RootNamespace>
-    <AssemblyName>FinalProjectTicTacToe</AssemblyName>
+    <RootNamespace>FinalProjectTTT</RootNamespace>
+    <AssemblyName>FinalProjectTTT</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
