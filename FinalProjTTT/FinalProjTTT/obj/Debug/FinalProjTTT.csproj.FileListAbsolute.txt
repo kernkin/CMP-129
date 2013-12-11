@@ -1,0 +1,5 @@
+c:\users\kernkin\documents\visual studio 2012\Projects\FinalProjTTT\FinalProjTTT\bin\Debug\FinalProjTTT.exe.config
+c:\users\kernkin\documents\visual studio 2012\Projects\FinalProjTTT\FinalProjTTT\bin\Debug\FinalProjTTT.exe
+c:\users\kernkin\documents\visual studio 2012\Projects\FinalProjTTT\FinalProjTTT\bin\Debug\FinalProjTTT.pdb
+c:\users\kernkin\documents\visual studio 2012\Projects\FinalProjTTT\FinalProjTTT\obj\Debug\FinalProjTTT.exe
+c:\users\kernkin\documents\visual studio 2012\Projects\FinalProjTTT\FinalProjTTT\obj\Debug\FinalProjTTT.pdb

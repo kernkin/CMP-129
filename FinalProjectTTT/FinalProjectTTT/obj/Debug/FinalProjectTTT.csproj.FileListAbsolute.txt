@@ -1,6 +1,0 @@
-c:\users\kernkin\documents\visual studio 2012\Projects\FinalProjectTTT\FinalProjectTTT\bin\Debug\FinalProjectTTT.exe.config
-c:\users\kernkin\documents\visual studio 2012\Projects\FinalProjectTTT\FinalProjectTTT\bin\Debug\FinalProjectTTT.exe
-c:\users\kernkin\documents\visual studio 2012\Projects\FinalProjectTTT\FinalProjectTTT\bin\Debug\FinalProjectTTT.pdb
-c:\users\kernkin\documents\visual studio 2012\Projects\FinalProjectTTT\FinalProjectTTT\obj\Debug\FinalProjectTTT.csprojResolveAssemblyReference.cache
-c:\users\kernkin\documents\visual studio 2012\Projects\FinalProjectTTT\FinalProjectTTT\obj\Debug\FinalProjectTTT.exe
-c:\users\kernkin\documents\visual studio 2012\Projects\FinalProjectTTT\FinalProjectTTT\obj\Debug\FinalProjectTTT.pdb
